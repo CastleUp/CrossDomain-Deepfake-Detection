@@ -50,7 +50,7 @@ Due to licensing agreements and extreme file sizes (several hundreds of Gigabyte
 
 **Required Directory Structure:**
 ```text
-DF_models_compare/
+CrossDomain-Deepfake-Detection/
 ├── FaceForensics++_C23/
 │   ├── original_sequences/
 │   └── manipulated_sequences/
@@ -67,8 +67,8 @@ DF_models_compare/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/DF_models_compare.git
-   cd DF_models_compare
+   git clone https://github.com/CastleUp/CrossDomain-Deepfake-Detection.git
+   cd CrossDomain-Deepfake-Detection
    ```
 
 2. **Install dependencies:**
@@ -113,21 +113,6 @@ The pipeline is strictly modular. Execute the scripts sequentially:
    ```bash
    python src/evaluate.py
    ```
-
----
-
-## 📜 Citation
-
-If you find this repository, code, or methodology useful in your academic research, please consider citing:
-
-```bibtex
-@article{kosolapov2026deepfake,
-  title={Comparative Analysis of Feature Extraction Paradigms for Cross-Domain Deepfake Detection},
-  author={Kossolapov, Maxim},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
 
 ## ⚖️ License
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
