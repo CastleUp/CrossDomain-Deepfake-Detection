@@ -57,9 +57,12 @@ CrossDomain-Deepfake-Detection/
 ├── Celed_df/
 │   ├── Celeb-real/
 │   └── Celeb-synthesis/
+├── test_chek/             <-- Sample dataset (20 images) for quick testing
 ├── src/
 └── ...
 ```
+
+> **Note on `test_chek/`**: To help you quickly verify that the pipeline works without downloading the massive full datasets, we have included a small `test_chek/` folder. It contains 20 sample face images to demonstrate exactly how the extracted data should look before passing it to the feature extractors.
 
 ---
 
