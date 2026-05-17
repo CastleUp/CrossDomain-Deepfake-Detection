@@ -1,0 +1,24 @@
+# Datasets and heavy media files
+FaceForensics++_C23/
+Celed_df/
+
+# Processed data and cached features
+data/processed/
+data/features/
+*.pt
+
+# Model checkpoints (heavy)
+results/models/
+*.pth
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.env
