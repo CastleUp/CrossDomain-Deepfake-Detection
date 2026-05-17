@@ -14,6 +14,15 @@ This repository provides a highly standardized, reproducible **Feature Extractio
 
 Our experiments demonstrate that high Intra-domain accuracy (e.g., >0.95 AUC on FaceForensics++) is often an illusion caused by overfitting to local generator artifacts. When evaluated in a Cross-domain setting (Celeb-DF), models face severe degradation.
 
+### Feature Extraction Pipeline
+
+<p align="center">
+  <img src="results/plots/pipeline_example.png" width="100%" title="Feature Extraction Pipeline">
+</p>
+<p align="center">
+  <em>Preprocessing stages: Original Frame → MTCNN Face Localization (+30% Margin) → 2D Spectral Magnitude via FFT.</em>
+</p>
+
 ### Quantitative Metrics
 
 | Architecture (Paradigm) | AUC (FF++) | F1 (FF++) | AUC (Celeb-DF) | F1 (Celeb-DF) | AUC Drop (Δ) |
